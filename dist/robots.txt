@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mahanteshkhetri.github.io/sitemap.xml

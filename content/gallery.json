@@ -1,0 +1,166 @@
+[
+  {
+    "src": "/assets/campfire-cooking.jpg",
+    "width": 1536,
+    "height": 2048,
+    "title": "Cooking with a view.",
+    "caption": "A misty campsite, good company, and a kitchen with excellent ventilation.",
+    "alt": "Two people cooking over a fire at a misty wooded campsite",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/mirror-moment.jpg",
+    "width": 1170,
+    "height": 2080,
+    "title": "One for the camera roll.",
+    "caption": "A quiet moment, caught in the mirror.",
+    "alt": "Two people posing together for a mirror photograph",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/around-the-table.jpg",
+    "width": 2016,
+    "height": 1512,
+    "title": "The best kind of meeting.",
+    "caption": "Good food and time around the table. No slides required.",
+    "alt": "A group sharing a meal around a dining table",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/halloween-night.jpg",
+    "width": 1536,
+    "height": 2048,
+    "title": "A very different dress code.",
+    "caption": "An evening of costumes, company, and absolutely no lab coats.",
+    "alt": "A group posing together in Halloween costumes",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/a-memorable-meeting.jpg",
+    "width": 1512,
+    "height": 2016,
+    "title": "A moment worth keeping.",
+    "caption": "One of the photographs I’m glad someone remembered to take.",
+    "alt": "Two people smiling and shaking hands",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/solar-recycling-poster.jpg",
+    "width": 1200,
+    "height": 1600,
+    "title": "The work, on one very large page.",
+    "caption": "Sharing my work on laser-assisted silver recycling and automation.",
+    "alt": "Mahantesh beside his laser-assisted silver recycling research poster",
+    "group": "Research, out in the world"
+  },
+  {
+    "src": "/assets/research-recognition.jpg",
+    "width": 3072,
+    "height": 4080,
+    "title": "A proud moment.",
+    "caption": "Receiving a certificate of achievement. A welcome pause to appreciate the work behind it.",
+    "alt": "Mahantesh receiving a certificate of achievement",
+    "group": "Research, out in the world"
+  },
+  {
+    "src": "/assets/research-presentation.jpg",
+    "width": 1440,
+    "height": 1800,
+    "title": "Let me show you the experiment.",
+    "caption": "Talking through the laser setup and the ideas behind the work.",
+    "alt": "Mahantesh presenting a laser experiment to a conference audience",
+    "group": "Research, out in the world"
+  },
+  {
+    "src": "/assets/mahantesh-pvsc-2024.jpg",
+    "alt": "Mahantesh at the 52nd IEEE Photovoltaic Specialists Conference in Seattle",
+    "title": "The research does occasionally leave the lab.",
+    "place": "Seattle, Washington",
+    "date": "June 2024",
+    "caption": "At the 52nd IEEE Photovoltaic Specialists Conference. A small snapshot of the people, places, and conversations that come with doing research.",
+    "width": 1600,
+    "height": 1600,
+    "group": "Research, out in the world"
+  },
+  {
+    "src": "/assets/a-pause-with-a-view.jpg",
+    "width": 1170,
+    "height": 2080,
+    "title": "A pause with a view.",
+    "caption": "A little fresh air, a little scenery, and a photo to remember it.",
+    "alt": "Two people taking a selfie overlooking green hills",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/aquarium.jpg",
+    "width": 4032,
+    "height": 3024,
+    "title": "A small world behind glass.",
+    "caption": "Plants, fish, and plenty of reasons to stop and look.",
+    "alt": "A planted aquarium filled with green foliage and colorful fish",
+    "group": "A closer look"
+  },
+  {
+    "src": "/assets/kayak-day.jpg",
+    "width": 4284,
+    "height": 5712,
+    "title": "The kayak has the best seat.",
+    "caption": "Good company, a boat on the roof, and a day away from the usual routine.",
+    "alt": "Four friends beside a car with a kayak on its roof",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/red-betta.jpg",
+    "width": 4032,
+    "height": 3024,
+    "title": "Someone is ready for a close-up.",
+    "caption": "A flash of red in the underwater jungle.",
+    "alt": "A red betta fish swimming among green aquarium plants",
+    "group": "A closer look"
+  },
+  {
+    "src": "/assets/friends-at-the-table.jpg",
+    "width": 2316,
+    "height": 3088,
+    "title": "Room for one more story.",
+    "caption": "The kind of table where the conversation lasts longer than the meal.",
+    "alt": "A group of friends gathered around a wooden dining table",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/ornamental-clock.jpg",
+    "width": 3024,
+    "height": 4032,
+    "title": "I stopped to look at the clock.",
+    "caption": "For once, it was not because I was running late.",
+    "alt": "An ornate decorative clock with sculpted figures and flowers",
+    "group": "A closer look"
+  },
+  {
+    "src": "/assets/a-walk-under-blue-skies.jpg",
+    "width": 3024,
+    "height": 4032,
+    "title": "Taking the scenic route.",
+    "caption": "A street, a dramatic sky, and a good excuse to keep walking.",
+    "alt": "A cobbled street lined with colorful buildings beneath a cloudy blue sky",
+    "group": "A closer look"
+  },
+  {
+    "src": "/assets/camping-gear.jpg",
+    "width": 3024,
+    "height": 4032,
+    "title": "Packing light. More or less.",
+    "caption": "The adventure starts with finding room for all of this.",
+    "alt": "Camping tents, mats, bags and coolers gathered beside parked vehicles",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/team-celebration.jpg",
+    "width": 2048,
+    "height": 1536,
+    "title": "A very good team photo.",
+    "caption": "The trophy made it into the picture. The cheering did not quite fit.",
+    "alt": "A sports team celebrating together with a trophy on a grassy field",
+    "group": "Life outside the lab"
+  }
+]

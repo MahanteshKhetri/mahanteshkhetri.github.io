@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Laser removal of silicon solar cell backsheet while preserving tempered glass and silicon wafer",
+    "authors": "Mahantesh Khetri, Pawan K. Kanaujia, Mool C. Gupta",
+    "role": "First Author",
+    "journal": "Solar Energy Materials and Solar Cells",
+    "year": "2026",
+    "doi": "10.1016/j.solmat.2026.114404",
+    "summary": "Developed a 1070 nm continuous wave laser process for rapid backsheet delamination from silicon photovoltaic modules while preserving tempered glass and the silicon wafer.",
+    "tags": [
+      "Photovoltaics",
+      "Laser Processing"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Superhydrophilic and Superhydrophobic Surfaces with Reversible Wettability Using Laser Processing",
+    "authors": "Anustup Chakraborty, Mahantesh Khetri, Atchutananda Surampudi, Mool C. Gupta",
+    "role": "Co-author",
+    "journal": "ACS Omega",
+    "year": "2026",
+    "doi": "10.1021/acsomega.5c11755",
+    "summary": "Investigated laser surface microtexturing for controllable superhydrophilic and superhydrophobic surface behavior.",
+    "tags": [
+      "Surface Engineering",
+      "Laser Processing"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Laser recycling of silver in bulk and nanoparticle form from silicon solar cells and deep learning for process automation",
+    "authors": "Mahantesh Khetri, Pawan K. Kanaujia, Mool C. Gupta",
+    "role": "First Author",
+    "journal": "Renewable Energy",
+    "year": "2025",
+    "doi": "10.1016/j.renene.2025.123684",
+    "summary": "Developed laser methods for recovering silver from silicon solar cells in bulk and nanoparticle form and integrated deep learning for automated process targeting and scan-path generation.",
+    "tags": [
+      "Photovoltaics",
+      "Automation",
+      "Nanoparticles",
+      "Laser Processing"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Gold Metal Recovery from Electronic Waste through Laser Generation of Micro and Nanoparticles",
+    "authors": "Abhishek Trivedi, Mahantesh Khetri, Atchutananda Surampudi, Mool C. Gupta",
+    "role": "Co-author",
+    "journal": "ACS Omega",
+    "year": "2025",
+    "doi": "10.1021/acsomega.5c02781",
+    "summary": "Demonstrated laser-based recovery of gold from electronic waste through generation of micro and nanoparticles using modeling, spectroscopy, microscopy, compositional analysis, and LIBS.",
+    "tags": [
+      "Nanoparticles",
+      "Laser Processing"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Recycling of silver from CIGS solar cells using laser ablation and debonding",
+    "authors": "Mahantesh Khetri, Mool C. Gupta",
+    "role": "First Author",
+    "journal": "Solar Energy Materials and Solar Cells",
+    "year": "2025",
+    "doi": "10.1016/j.solmat.2024.113381",
+    "summary": "Developed ultraviolet picosecond laser ablation and infrared nanosecond laser debonding approaches for recovering silver from CIGS photovoltaic cells.",
+    "tags": [
+      "Photovoltaics",
+      "Laser Processing"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Recycling of silver from silicon solar cells by laser debonding",
+    "authors": "Mahantesh Khetri, Mool C. Gupta",
+    "role": "First Author",
+    "journal": "Solar Energy",
+    "year": "2024",
+    "doi": "10.1016/j.solener.2024.112381",
+    "summary": "Developed a laser debonding method for selective silver contact recovery from silicon solar cells using UV nanosecond and IR continuous wave laser processing.",
+    "tags": [
+      "Photovoltaics",
+      "Laser Processing"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Stabilization of 5 wt percent Sb doped SnO2 thin film by post oxidation of thermally evaporated metallic layer",
+    "authors": "Mahantesh Khetri, R. Ramarajan, N. Purusotham Reddy, M. Kovendhan, K. V. A. Srivatsav, B. S. Rao, K. Thangaraju, D. Paul Joseph",
+    "role": "First Author",
+    "journal": "AIP Conference Proceedings",
+    "year": "2019",
+    "doi": "10.1063/1.5113117",
+    "summary": "Developed Sb doped SnO2 transparent conducting oxide thin films by thermal evaporation of Sn Sb alloy layers followed by controlled post oxidation and characterized their structural, optical, and electrical properties.",
+    "tags": [
+      "Thin Films"
+    ]
+  }
+]
