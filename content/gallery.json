@@ -1,48 +1,12 @@
 [
   {
-    "src": "/assets/campfire-cooking.jpg",
-    "width": 1536,
-    "height": 2048,
-    "title": "Cooking with a view.",
-    "caption": "A misty campsite, good company, and a kitchen with excellent ventilation.",
-    "alt": "Two people cooking over a fire at a misty wooded campsite",
-    "group": "Life outside the lab"
-  },
-  {
-    "src": "/assets/mirror-moment.jpg",
-    "width": 1170,
-    "height": 2080,
-    "title": "One for the camera roll.",
-    "caption": "A quiet moment, caught in the mirror.",
-    "alt": "Two people posing together for a mirror photograph",
-    "group": "Life outside the lab"
-  },
-  {
-    "src": "/assets/around-the-table.jpg",
-    "width": 2016,
-    "height": 1512,
-    "title": "The best kind of meeting.",
-    "caption": "Good food and time around the table. No slides required.",
-    "alt": "A group sharing a meal around a dining table",
-    "group": "Life outside the lab"
-  },
-  {
-    "src": "/assets/halloween-night.jpg",
-    "width": 1536,
-    "height": 2048,
-    "title": "A very different dress code.",
-    "caption": "An evening of costumes, company, and absolutely no lab coats.",
-    "alt": "A group posing together in Halloween costumes",
-    "group": "Life outside the lab"
-  },
-  {
     "src": "/assets/a-memorable-meeting.jpg",
     "width": 1512,
     "height": 2016,
     "title": "A moment worth keeping.",
     "caption": "One of the photographs I’m glad someone remembered to take.",
     "alt": "Two people smiling and shaking hands",
-    "group": "Life outside the lab"
+    "group": "Research, out in the world"
   },
   {
     "src": "/assets/solar-recycling-poster.jpg",
@@ -83,13 +47,61 @@
     "group": "Research, out in the world"
   },
   {
+    "src": "/assets/campfire-cooking.jpg",
+    "width": 1536,
+    "height": 2048,
+    "title": "Cooking with a view.",
+    "caption": "A misty campsite, good company, and a kitchen with excellent ventilation.",
+    "alt": "Two people cooking over a fire at a misty wooded campsite",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/mirror-moment.jpg",
+    "width": 1170,
+    "height": 2080,
+    "title": "One for the camera roll.",
+    "caption": "A quiet moment, caught in the mirror.",
+    "alt": "Two people posing together for a mirror photograph",
+    "group": "Life outside the lab",
+    "crop": [
+      0,
+      780,
+      1170,
+      1210
+    ]
+  },
+  {
+    "src": "/assets/around-the-table.jpg",
+    "width": 2016,
+    "height": 1512,
+    "title": "The best kind of meeting.",
+    "caption": "Good food and time around the table. No slides required.",
+    "alt": "A group sharing a meal around a dining table",
+    "group": "Life outside the lab"
+  },
+  {
+    "src": "/assets/halloween-night.jpg",
+    "width": 1536,
+    "height": 2048,
+    "title": "A very different dress code.",
+    "caption": "An evening of costumes, company, and absolutely no lab coats.",
+    "alt": "A group posing together in Halloween costumes",
+    "group": "Life outside the lab"
+  },
+  {
     "src": "/assets/a-pause-with-a-view.jpg",
     "width": 1170,
     "height": 2080,
     "title": "A pause with a view.",
     "caption": "A little fresh air, a little scenery, and a photo to remember it.",
     "alt": "Two people taking a selfie overlooking green hills",
-    "group": "Life outside the lab"
+    "group": "Life outside the lab",
+    "crop": [
+      0,
+      710,
+      1170,
+      660
+    ]
   },
   {
     "src": "/assets/aquarium.jpg",

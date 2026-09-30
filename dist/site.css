@@ -12,3 +12,33 @@
 .album-section{margin:20px 0 65px}.album-section>h2{font-size:30px;padding-bottom:20px;border-bottom:1px solid var(--line);margin-bottom:35px}.album-grid{columns:3;column-gap:34px}.album-photo{break-inside:avoid;margin:0 0 40px;display:inline-block;width:100%}.album-photo img{width:100%;height:auto;border-radius:8px 8px 36px 8px;transition:filter .2s}.album-photo:nth-child(3n+2) img{border-radius:90px 90px 8px 8px}.album-photo:nth-child(3n) img{border-radius:8px 40px 8px 40px}.album-photo .photo-button:hover img{filter:brightness(1.04)}.album-photo figcaption{padding:20px 4px 0}.album-photo h3{font-size:25px;line-height:1.25;margin:0 0 10px}.album-photo p{font-size:16px;line-height:1.65;color:var(--muted);margin:0}.album-meta{display:block;font-size:13px;color:var(--gold);margin-bottom:10px}.album-hint{padding-bottom:45px}.photo-dialog img{height:auto;max-width:100%;object-fit:contain}.photo-dialog p{max-width:700px;margin:14px auto 0;line-height:1.5}
 @media(max-width:1000px){.album-grid{columns:2;column-gap:25px}}
 @media(max-width:600px){.album-grid{columns:1}.album-section>h2{font-size:28px}.album-photo{margin-bottom:35px}.album-photo img{max-height:none}.album-photo h3{font-size:26px}}
+/* Compact introduction: documents and the story stay near the top. */
+.hero{grid-template-columns:58% 42%;min-height:460px;padding-top:0}
+.hero-copy{padding:30px 0 35px;width:100%}
+.hero h1{font-size:clamp(52px,5.1vw,72px);letter-spacing:-2.5px;margin-bottom:15px}
+.hero h1 br{display:none}.hero h1 em{display:inline}
+.hero-photo{width:40%;height:420px;top:14px;right:0;bottom:auto}
+.hero-photo img{object-position:77% 35%}
+.hero-photo figcaption{right:15px;bottom:18px;font-size:11px}
+.hero-footnote{display:none}
+.degree-detail{display:block;font-size:13px;color:var(--muted);margin-top:5px}
+.hero-documents{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}
+.document-button{display:inline-flex;flex-direction:column;min-width:160px;background:var(--ink);color:white;text-decoration:none;padding:11px 20px;border:1px solid var(--ink);border-radius:5px;font-weight:600;font-size:17px;line-height:1.5}
+.document-button span{font-size:11px;font-weight:400;letter-spacing:.4px;opacity:.85}
+.document-button.secondary{color:var(--ink);background:transparent}
+.document-button:hover{background:var(--blue);color:white;border-color:var(--blue)}
+.hero-note{max-width:none;font-size:14px;margin-bottom:14px}
+.motto{display:flex;gap:18px}.motto p{font-size:17px;line-height:1.5}.motto span{margin:0;font-size:11px}
+.story-section{padding-block:42px 60px;gap:60px;grid-template-columns:.7fr 1.3fr}
+.story-section h2{font-size:35px}.story-section .small-label{margin-bottom:15px}.story{font-size:17px}
+/* The same crop is used in the album and enlarged view; original files are preserved. */
+.photo-window{display:block;position:relative;overflow:hidden;width:100%;aspect-ratio:var(--frame-ratio);border-radius:8px 8px 36px 8px}
+.photo-window img,.album-photo .photo-window img,.photo-dialog .photo-window img{position:absolute;max-width:none;max-height:none;width:var(--image-width);height:auto;left:var(--image-left);top:var(--image-top);margin:0;border-radius:0}
+.album-photo:nth-child(3n+2) .photo-window{border-radius:70px 70px 8px 8px}
+.album-photo:nth-child(3n) .photo-window{border-radius:8px 40px 8px 40px}
+.photo-dialog .photo-window{width:min(100%,calc(68vh * var(--frame-ratio)));margin:auto;border-radius:4px}
+@media(max-width:1050px) and (min-width:761px){.hero{min-height:470px}.hero h1{font-size:55px}.hero-photo{height:400px;width:39%}.motto{display:flex}.story-section{gap:32px}}
+@media(max-width:760px){.hero{display:grid;grid-template-columns:minmax(0,1fr) 105px;gap:10px;min-height:0;padding-top:25px;align-items:start}.hero-copy{padding:0 0 28px}.hero h1{font-size:clamp(36px,6.5vw,52px);letter-spacing:-1.5px}.hero h1 em{display:block}.hero-photo{position:relative;grid-column:2;width:105px;height:180px;right:auto;top:auto;bottom:auto;margin:10px 0 0;overflow:hidden;border-radius:50px 50px 8px 8px}.hero-photo img{object-position:78% 35%;mask-image:none;-webkit-mask-image:none}.hero-photo:after,.hero-photo figcaption{display:none}.degree-detail{font-size:12px}.hero-documents{gap:8px;margin:18px 0}.document-button{min-width:0;padding:9px 13px;font-size:15px}.document-button span{font-size:10px}.hero-note{font-size:13px}.motto{display:block;padding-left:12px}.motto p{font-size:16px}.motto span{display:block;margin-top:5px;max-width:none}.motto span br{display:none}.story-section{grid-template-columns:1fr;gap:20px;padding-block:30px 45px}.story-section h2{font-size:32px}}
+
+@media(min-width:761px){.hero{min-height:410px}.hero-copy{padding-top:22px;padding-bottom:22px}.hero h1{font-size:clamp(48px,5vw,62px);margin-bottom:16px}.hero-photo{height:365px;width:36%;top:20px}.hero-documents{margin:18px 0}.motto{margin:12px 0}.hero-note{margin-bottom:10px}.story-section{padding-top:30px}}
+@media(max-width:760px){.hero{display:block;position:relative}.hero-copy{width:100%}.hero h1,.hero .identity{padding-right:110px}.hero-photo{position:absolute;right:0;top:30px;margin:0;width:100px;height:175px}.hero-documents{flex-wrap:nowrap}.document-button{flex:1}.hero-note{max-width:100%}.motto{margin-block:16px}.story-section{padding-top:24px}}

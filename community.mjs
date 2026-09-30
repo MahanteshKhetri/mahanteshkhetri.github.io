@@ -2,7 +2,7 @@ import {save,A} from './templates.mjs';
 
 save('/community/','Giving back','Founding member and former secretary of Pehchaan Ek Safar at IIT Ropar.',`
 <section class="wrap pehchaan-intro">
-  <div class="pehchaan-intro-copy"><span class="small-label">Pehchaan Ek Safar · IIT Ropar</span><h1>Education opened<br>a door for me.</h1><p class="lead">Being the first in my family to pursue higher education makes that more than a nice sentence. It’s why I care about helping someone else find their way in.</p><p class="pehchaan-role">Founding member & former secretary</p></div>
+  <div class="pehchaan-intro-copy"><span class="small-label">Pehchaan Ek Safar · IIT Ropar</span><h1>Education opened<br>a door for me.</h1><p class="lead">Being the first in my family to pursue higher education makes that more than a nice sentence. It’s why I care about helping someone else find their way in.</p><p class="pehchaan-role">Founding member · Secretary & Social Media / External Affairs Lead, 2018–2019</p></div>
   <div class="pehchaan-photo-pair" aria-label="Art and learning at Pehchaan Ek Safar">
     <figure class="pehchaan-making"><img src="/assets/pehchaan-colouring.png" alt="A child carefully colouring a detailed floral pattern" width="544" height="682"><figcaption>One colour at a time.</figcaption></figure>
     <figure class="pehchaan-proud"><img src="/assets/pehchaan-artwork.png" alt="A child holding up a colourful drawing on a clipboard" width="529" height="721"><figcaption>And then, the proud reveal.</figcaption></figure>

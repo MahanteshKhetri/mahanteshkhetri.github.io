@@ -1,4 +1,12 @@
 [
- {"title":"Resume","description":"The short version: experience, skills, and the work I can bring to a team.","file":null},
- {"title":"Curriculum vitae","description":"The longer version: research, publications, teaching, and the journey so far.","file":null}
+  {
+    "title": "Resume",
+    "description": "The short version: experience, skills, and the work I can bring to a team.",
+    "file": "/assets/Mahantesh-Khetri-Resume.pdf"
+  },
+  {
+    "title": "Curriculum vitae",
+    "description": "The longer version: research, publications, teaching, and the journey so far.",
+    "file": "/assets/Mahantesh-Khetri-CV.pdf"
+  }
 ]
