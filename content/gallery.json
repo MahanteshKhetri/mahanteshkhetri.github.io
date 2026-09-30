@@ -3,18 +3,18 @@
     "src": "/assets/a-memorable-meeting.jpg",
     "width": 1512,
     "height": 2016,
-    "title": "A moment worth keeping.",
-    "caption": "One of the photographs I’m glad someone remembered to take.",
-    "alt": "Two people smiling and shaking hands",
+    "title": "With my PhD advisor",
+    "caption": "A moment with my PhD advisor, whose guidance has been a big part of this journey.",
+    "alt": "Mahantesh with his PhD advisor",
     "group": "Research, out in the world"
   },
   {
     "src": "/assets/solar-recycling-poster.jpg",
     "width": 1200,
     "height": 1600,
-    "title": "The work, on one very large page.",
+    "title": "Presenting my research",
     "caption": "Sharing my work on laser-assisted silver recycling and automation.",
-    "alt": "Mahantesh beside his laser-assisted silver recycling research poster",
+    "alt": "Mahantesh beside his solar recycling research poster",
     "group": "Research, out in the world"
   },
   {
@@ -30,21 +30,19 @@
     "src": "/assets/research-presentation.jpg",
     "width": 1440,
     "height": 1800,
-    "title": "Let me show you the experiment.",
-    "caption": "Talking through the laser setup and the ideas behind the work.",
-    "alt": "Mahantesh presenting a laser experiment to a conference audience",
+    "title": "At the conference",
+    "caption": "Talking through my laser experiments and answering a few good questions.",
+    "alt": "Mahantesh presenting his laser research",
     "group": "Research, out in the world"
   },
   {
-    "src": "/assets/mahantesh-pvsc-2024.jpg",
-    "alt": "Mahantesh at the 52nd IEEE Photovoltaic Specialists Conference in Seattle",
-    "title": "The research does occasionally leave the lab.",
-    "place": "Seattle, Washington",
-    "date": "June 2024",
-    "caption": "At the 52nd IEEE Photovoltaic Specialists Conference. A small snapshot of the people, places, and conversations that come with doing research.",
-    "width": 1600,
-    "height": 1600,
-    "group": "Research, out in the world"
+    "src": "/assets/playing-cricket.jpg",
+    "width": 4500,
+    "height": 2189,
+    "title": "An afternoon of cricket",
+    "caption": "An afternoon playing cricket with friends.",
+    "alt": "A game of cricket with a batter and fielders",
+    "group": "Life outside the lab"
   },
   {
     "src": "/assets/campfire-cooking.jpg",
@@ -59,9 +57,9 @@
     "src": "/assets/mirror-moment.jpg",
     "width": 1170,
     "height": 2080,
-    "title": "One for the camera roll.",
-    "caption": "A quiet moment, caught in the mirror.",
-    "alt": "Two people posing together for a mirror photograph",
+    "title": "With Sona",
+    "caption": "A moment together, caught in the mirror.",
+    "alt": "Mahantesh and Sona posing for a mirror photograph",
     "group": "Life outside the lab",
     "crop": [
       0,
@@ -92,9 +90,9 @@
     "src": "/assets/a-pause-with-a-view.jpg",
     "width": 1170,
     "height": 2080,
-    "title": "A pause with a view.",
-    "caption": "A little fresh air, a little scenery, and a photo to remember it.",
-    "alt": "Two people taking a selfie overlooking green hills",
+    "title": "A day out with Sona",
+    "caption": "Good company and a view worth stopping for.",
+    "alt": "Mahantesh and Sona taking a selfie overlooking green hills",
     "group": "Life outside the lab",
     "crop": [
       0,
@@ -107,9 +105,9 @@
     "src": "/assets/aquarium.jpg",
     "width": 4032,
     "height": 3024,
-    "title": "A small world behind glass.",
-    "caption": "Plants, fish, and plenty of reasons to stop and look.",
-    "alt": "A planted aquarium filled with green foliage and colorful fish",
+    "title": "My fish tank",
+    "caption": "My little planted world at home. There is always something happening in here.",
+    "alt": "Mahantesh’s planted fish tank",
     "group": "A closer look"
   },
   {
@@ -125,9 +123,9 @@
     "src": "/assets/red-betta.jpg",
     "width": 4032,
     "height": 3024,
-    "title": "Someone is ready for a close-up.",
-    "caption": "A flash of red in the underwater jungle.",
-    "alt": "A red betta fish swimming among green aquarium plants",
+    "title": "Meet Sushi",
+    "caption": "My red betta, Sushi. Small fish, big personality.",
+    "alt": "Sushi, Mahantesh’s red betta fish",
     "group": "A closer look"
   },
   {

@@ -1,12 +1,12 @@
 [
   {
     "title": "Resume",
-    "description": "The short version: experience, skills, and the work I can bring to a team.",
+    "description": "Experience, technical skills, and selected research achievements. PDF, 2 pages.",
     "file": "/assets/Mahantesh-Khetri-Resume.pdf"
   },
   {
     "title": "Curriculum vitae",
-    "description": "The longer version: research, publications, teaching, and the journey so far.",
+    "description": "Education, research, publications, teaching, and awards. PDF, 5 pages.",
     "file": "/assets/Mahantesh-Khetri-CV.pdf"
   }
 ]
