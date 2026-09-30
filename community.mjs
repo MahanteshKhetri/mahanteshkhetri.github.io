@@ -18,7 +18,7 @@ save('/community/','Giving back','Founding member and former secretary of Pehcha
 </div></section>
 <section class="wrap pehchaan-science-story">
   <div class="pehchaan-science-copy"><span class="small-label">Make room for “why?”</span><h2>A chance to<br>try things out.</h2><p>Perhaps it’s the lifelong tinkerer in me, but I have a soft spot for learning that lets you get your hands involved. Science feels different when you can explore it for yourself.</p></div>
-  <figure class="pehchaan-science"><img src="/assets/pehchaan-science.png" alt="Students exploring hands-on science exhibits, models and demonstrations" width="717" height="459" loading="lazy"><figcaption>Learning beyond the classroom.</figcaption></figure>
+  <figure class="pehchaan-science"><img src="/assets/pehchaan-science.png" alt="Children from Pehchaan Ek Safar exploring hands-on science exhibits" width="717" height="459" loading="lazy"><figcaption>Children from Pehchaan Ek Safar exploring hands-on science activities.</figcaption></figure>
 </section>
 <section class="wrap pehchaan-closing"><span class="small-label">Why it stays with me</span><p>I know what it means to be given a chance to learn. Pehchaan Ek Safar connected that personal experience with something we could do together. It remains a part of my journey that I’m especially proud of.</p><div class="source-links">${A('https://www.iitrpr.ac.in/pehchaanes/','Visit Pehchaan Ek Safar')}${A('https://in.linkedin.com/company/pehchaan-ek-safar','Follow the initiative')}${A('https://www.iitrpr.ac.in/sites/default/files/Vol%208%2C%20Iss.%201%20Feb%2019_compressed.pdf','Read IIT Ropar’s account')}</div></section>
 `);
