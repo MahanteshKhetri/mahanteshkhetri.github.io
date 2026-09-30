@@ -58,3 +58,19 @@
 @media(max-width:1000px){.album-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-documents{gap:8px}.hero-documents .document-button{min-width:120px;padding-inline:12px;font-size:15px}}
 @media(max-width:600px){.album-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}.album-photo .photo-button{height:160px}.album-photo .photo-window{width:min(100%,calc(160px * var(--frame-ratio)))}.album-photo h3{font-size:19px}.album-photo p{font-size:13px}.album-jumps{gap:10px 16px}.album-jumps a{font-size:13px}.album-section>h2{font-size:24px}.hero-documents .document-button{min-width:0;padding:9px 8px;font-size:13px}.hero-documents .document-button span{font-size:10px;letter-spacing:0}.photo-controls{gap:12px}.photo-controls button{padding:8px 10px}.photo-dialog p{font-size:14px}.photo-dialog .photo-window{width:min(100%,calc(52vh * var(--frame-ratio)))}}
 .gallery-intro{padding-block:28px 20px}.gallery-intro .small-label{margin-bottom:10px}.gallery-intro h1{font-size:52px;margin-bottom:12px}.gallery-intro .lead{font-size:17px;margin-bottom:0}.album-jumps{min-height:0;margin-top:0;padding-block:5px 14px}.album-section{margin-top:20px}
+
+/* Simple rectangular photographs and a denser gallery. */
+.brand{font-size:27px;white-space:nowrap}.brand-nickname{font-size:.62em;font-weight:400;color:var(--muted)}
+.album-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:20px 18px}
+.album-photo .photo-button{height:170px}
+.album-photo .photo-window{width:min(100%,calc(170px * var(--frame-ratio)))}
+.album-photo .photo-window,.album-photo:nth-child(n) .photo-window,.album-photo:nth-child(n) img,.photo-dialog .photo-window{border-radius:0}
+.album-photo figcaption{padding:8px 0 0}.album-photo h3{font-size:18px;margin-bottom:4px;line-height:1.25}.album-photo p{font-size:13px;line-height:1.4}
+.album-section{margin-bottom:28px}.album-section>h2{font-size:24px;padding-bottom:8px;margin-bottom:14px}
+.gallery-intro{padding-block:22px 10px}.gallery-intro h1{font-size:44px;margin-bottom:8px}.gallery-intro .lead{font-size:16px}.album-jumps{gap:8px 20px;padding-bottom:10px}.album-hint{padding-bottom:24px}
+@media(max-width:1100px){.brand{font-size:23px}.album-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.navigation{gap:20px}#nav{gap:18px}}
+@media(max-width:850px) and (min-width:761px){.brand{font-size:20px}.brand-nickname{display:block}.navigation{gap:12px}#nav{gap:12px;font-size:13px}}
+@media(max-width:760px){.brand{font-size:23px}.brand-nickname{display:inline}.album-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 14px}}
+@media(max-width:600px){.album-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}.album-photo .photo-button{height:130px}.album-photo .photo-window{width:min(100%,calc(130px * var(--frame-ratio)))}.album-photo h3{font-size:17px}.album-photo p{font-size:12px}.album-section>h2{font-size:22px}.brand{font-size:21px}.brand-nickname{font-size:.65em}.gallery-intro h1{font-size:40px}.album-jumps{gap:6px 14px}}
+@media(max-width:360px){.brand{font-size:19px}.menu-toggle{padding:7px 9px}}
+@media(max-width:760px){.hero-photo{border-radius:0}}
