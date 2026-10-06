@@ -1,6 +1,89 @@
 [
- {"id":"recycling","title":"An old solar cell still has something to give.","label":"Lasers, recycling & automation","status":"Published work","opening":"A worn-out solar cell is still full of useful material. The question that got me interested was simple: could a laser help us get that material back, without destroying everything around it?","body":["I developed ways to recover silver from silicon and CIGS solar cells, either as larger pieces or as tiny particles. That meant choosing a laser, changing the processing conditions, and looking closely at what came off and what was left behind. I also worked on removing the polymer backsheet from a module while keeping its glass and silicon intact.","Then came a very practical problem: broken cells don’t arrive in neat, identical shapes. I used image segmentation and Python to find the metal contacts in a picture and turn them into paths the laser could follow. My childhood interest in making things move more or less found its natural habitat."],"lesson":"Getting a material off is only half the job. Knowing what you recovered, what you damaged, and whether you can repeat it is the other half.","papers":[["10.1016/j.renene.2025.123684","Silver recovery + deep-learning automation · 2025"],["10.1016/j.solmat.2024.113381","Silver recovery from CIGS · 2025"],["10.1016/j.solmat.2026.114404","Backsheet removal through glass · 2026"],["10.1016/j.solener.2024.112381","Selective silver debonding · 2024"]]},
- {"id":"crystals","title":"Before testing a material, sometimes you have to grow it.","label":"Single-crystal growth & battery materials","status":"Published work","opening":"Working with materials at IIT Delhi took me a step further back in the story: how do you make the sample you want to study in the first place?","body":["My work involved single-crystal growth, pulsed laser deposition, vacuum systems, and measurements of structure and electronic properties. It was hands-on work: prepare a sample, check what actually formed, and work out which part of the process needs another try.","I’m also a co-author on a study of MoSeTe as a possible anode for sodium-ion batteries. Sodium is abundant, which makes the search for suitable battery materials especially interesting. The study looked at both the material’s structure and how it behaved during charging and discharging."],"lesson":"A good first result is an invitation to keep testing. How a material behaves over repeated cycles matters just as much.","papers":[["10.1007/s43538-022-00101-5","MoSeTe for sodium-ion batteries · 2022"]]},
- {"id":"thin-films","title":"A very thin film. Quite a lot to figure out.","label":"Transparent conducting oxide films","status":"Published work","opening":"Some materials need to let light through and carry electricity at the same time. That combination led me into transparent conducting oxide films during my MSc at IIT Ropar.","body":["I made antimony-doped tin oxide films using thermal evaporation followed by controlled oxidation. Then I checked their crystal structure, how much light passed through, and how easily current flowed.","The interesting part was connecting those measurements back to how the film had been made. A layer that looks unremarkable on a piece of glass can have a very different story once you measure it."],"lesson":"Making the film and measuring the film belong in the same conversation. Otherwise, it is very easy to optimize the wrong thing.","papers":[["10.1063/1.5113117","Sb-doped SnO₂ thin films · 2019"]]},
- {"id":"low-light","title":"What can a camera see when there’s barely any light?","label":"Low-light imaging & scientific computing","status":"Ongoing research","opening":"In dim light, a camera has very little signal to work with. Noise starts to compete with the scene itself. I’m interested in understanding that noise and how we evaluate attempts to recover the image.","body":["My work brings together RAW image analysis, statistical noise modeling, Python, and image-restoration evaluation. I work with the measurements behind an image as well as the image we eventually look at.","This is another place where my physics and programming interests meet. It is also a useful reminder that a prettier picture and a more faithful measurement are different questions."],"lesson":"Start by understanding the noise. Then ask whether an apparent improvement survives a careful, controlled comparison.","papers":[]}
+  {
+    "id":"recycling",
+    "title":"Laser processing for photovoltaic recycling",
+    "label":"Photovoltaic recycling",
+    "status":"DOE-funded research · Published work",
+    "opening":"End-of-life photovoltaic modules contain valuable silver, silicon, and glass, but recovering these materials is complicated by the interfaces that hold the device together. A useful recycling process must separate the desired material while limiting damage and contamination in the remaining layers. My work develops selective laser processes that connect material recovery with process control, characterization, and automation.",
+    "body":[
+      {"heading":"Selective silver recovery","text":"I developed complementary recovery routes for silicon and CIGS solar cells: pulsed-laser ablation in liquid to produce silver nanoparticles and microparticles, and infrared laser debonding to recover bulk silver. The central challenge was to remove the metallic contacts without unnecessarily exposing or damaging the underlying semiconductor. I established processing conditions by adjusting wavelength and pulse regime, energy input, focal position, scan speed, overlap, pass count, and the surrounding medium."},
+      "I used SEM to assess the size and morphology of the recovered silver, EDS to examine composition and purity, and UV-Vis spectroscopy to characterize nanoparticle optical response. Microscopy, spectroscopy, and electrical measurements of the processed cells connected recovery conditions to changes in the remaining device structure. These studies demonstrated distinct routes to particulate and bulk silver recovery, with the processing strategy selected around the desired product and substrate response.",
+      {"heading":"Backsheet removal and PV delamination","text":"Recovering the other module components requires controlled separation of the laminated stack. I developed a through-glass laser process that deposits heat at the silicon-EVA interface, weakening adhesion to enable separation of the EVA and PVDF-PET backsheet structure while preserving the glass and silicon wafer. By varying laser power, scan conditions, and processing time, I mapped the transition between useful delamination and unwanted polymer softening, bubbling, or carbonization."},
+      "I developed transient thermal models of the multilayer glass/Si/EVA structure to relate temperature evolution to the observed separation behavior. Raman, FTIR, optical microscopy, profilometry, and electrical measurements provided complementary checks on the recovered materials. The resulting process demonstrated backsheet removal and interfacial delamination while retaining the glass and silicon, extending the recycling workflow beyond metal recovery.",
+      {"heading":"Automation and upscaling","text":"Moving toward higher throughput requires a process that can accommodate irregular fragments and varying electrode patterns. I developed a U-Net/OpenCV workflow to identify silver contacts, extract their geometry, translate coordinates, and generate vector scan paths for Galil stages and galvo execution. Selective scanning directs the laser to the target features and reduces unnecessary exposure of neighboring material. The electrode-detection task achieved greater than 98% pixel-level segmentation accuracy."},
+      "I also integrated LIBS-based process monitoring into the broader recovery workflow and evaluated processing conditions with recovery yield, purity, throughput, and energy use in mind. Together, the published silver-recovery and delamination studies establish a foundation for upscaling through automated targeting, controlled energy delivery, and material-specific validation. The segmentation accuracy describes feature detection; it is distinct from recovery yield and positioning accuracy."
+    ],
+    "focus":["Silicon and CIGS photovoltaics","Silver recovery and characterization","Through-glass laser heating","Multilayer thermal modeling","Machine vision and scan-path generation","LIBS process monitoring"],
+    "papers":[["10.1016/j.renene.2025.123684","Silver recovery and deep-learning automation · 2025"],["10.1016/j.solmat.2024.113381","Silver recovery from CIGS solar cells · 2025"],["10.1016/j.solmat.2026.114404","Through-glass backsheet removal · 2026"],["10.1016/j.solener.2024.112381","Selective silver debonding · 2024"]]
+  },
+  {
+    "id":"spectroscopy",
+    "title":"Multimodal Raman, fluorescence, LIBS spectroscopy and imaging",
+    "label":"Multimodal spectroscopy",
+    "status":"NASA-funded research · Manuscript under review",
+    "opening":"A planetary material can reveal different information through its molecular vibrations, optical emission, elemental composition, and surface features. Combining Raman, fluorescence, laser-induced breakdown spectroscopy (LIBS), and imaging makes it possible to relate these complementary observations to the same sample region. I built a custom instrument from the optical layout through integration and characterization to provide that measurement capability on a shared platform.",
+    "body":[
+      {"heading":"One laser, complementary measurements","text":"The key design choice was a single 355 nm nanosecond pulsed laser. With suitable excitation and collection conditions, it provides the energy for ablation and plasma emission in LIBS, excites fluorescence, and generates Raman scattering. Sharing the source and optical paths allows the measurement modes to interrogate a common region, making their results easier to compare and interpret."},
+      "I developed the optical layout and integrated shared excitation and collection optics, reflective optics, spectral filters, fiber-coupled spectrometry, imaging, and motorized XYZ sample positioning. I assembled and aligned the components, established the signal paths, and coordinated focusing and sample positioning across the spectroscopic and imaging modes.",
+      "Building the instrument required resolving coupled optical and mechanical issues. I debugged signal loss and background contributions, adjusted spectral filtering and collection geometry, and checked alignment drift and positioning repeatability. Keeping the measurements co-located required attention to both optical focus and stage motion, so I tested repeatability across modes as part of the integration process.",
+      "I used the completed platform to characterize planetary materials and interpret complementary spectroscopic signatures from the same sample region. The instrument brought Raman, fluorescence, LIBS, and imaging into one custom measurement workflow, with structural and electrical/material characterization providing additional context for relating the signals to material properties.",
+      "The manuscript on this planetary-materials spectroscopy platform is under review in the IEEE Journal of Selected Topics in Quantum Electronics."
+    ],
+    "focus":["355 nm nanosecond pulsed laser","Optical design and alignment","Spectral filtering and fiber coupling","Motorized XYZ positioning","Signal-path troubleshooting","Planetary-material characterization"],
+    "papers":[]
+  },
+  {
+    "id":"crystals",
+    "title":"Single-crystal growth, thin films, and functional materials",
+    "label":"Crystal growth and materials",
+    "status":"IIT Delhi · Published collaborative research",
+    "opening":"Reliable measurements of electronic and energy materials begin with controlled sample preparation. At IIT Delhi, I worked across single-crystal growth, pulsed laser deposition, and high-vacuum processing to connect fabrication conditions with material structure and functional response.",
+    "body":[
+      "I grew and processed chalcogenide materials including Sb₂Te₃ and MnSb₂Te₄, operated and troubleshot vacuum and deposition equipment, and developed repeatable sample-preparation workflows. This work required control of the processing environment and careful evaluation of the material produced at each stage.",
+      "I combined SEM/TEM, XRD, XPS, PPMS, and electrical/electrochemical measurements to examine morphology, crystal structure, composition, and physical behavior. Comparing complementary measurements helped relate changes in preparation conditions to the observed properties rather than relying on a single characterization method.",
+      "I also contributed as a co-author to a published investigation of MoSeTe as an anode for sodium-ion batteries. The study connected structural characterization with electrochemical performance, extending this process-property approach to materials for energy storage."
+    ],
+    "focus":["Single-crystal growth","Pulsed laser deposition","High-vacuum systems","Structural and surface analysis","Transport and electrochemical measurements"],
+    "papers":[["10.1007/s43538-022-00101-5","MoSeTe as an anode for sodium-ion batteries · 2022"]]
+  },
+  {
+    "id":"thin-films",
+    "title":"Transparent conducting oxide thin films",
+    "label":"Transparent conducting oxides",
+    "status":"IIT Ropar · Published work",
+    "opening":"Transparent electrodes must transmit light while conducting electrical current. Achieving both properties depends on the interaction between deposition conditions, oxidation, and the resulting film structure. My MSc research at IIT Ropar investigated this relationship in antimony-doped tin oxide films.",
+    "body":[
+      "I fabricated metallic precursor layers by vacuum thermal evaporation and converted them into Sb-doped SnO₂ through controlled post-oxidation. I varied precursor thickness and processing conditions to examine how the coupled deposition and oxidation steps influenced the final film.",
+      "I characterized crystal structure with XRD, measured optical transmission, and evaluated film thickness and electrical resistivity. Assessing these properties together allowed me to compare processing conditions in terms of both optical and electrical behavior.",
+      "The resulting first-author study on 5 wt% Sb-doped SnO₂, published in AIP Conference Proceedings, connected fabrication and post-treatment with film structure, transparency, and resistivity."
+    ],
+    "focus":["Vacuum thermal evaporation","Controlled post-oxidation","X-ray diffraction","Optical transmission","Thickness and resistivity measurements"],
+    "papers":[["10.1063/1.5113117","Sb-doped SnO₂ thin films · 2019"]]
+  },
+  {
+    "id":"low-light",
+    "title":"Low-light imaging and statistical noise analysis",
+    "label":"Low-light imaging",
+    "status":"Ongoing research",
+    "opening":"At low light levels, sensor noise can obscure the features an image is meant to measure. Evaluating image restoration therefore requires understanding the recorded signal and its uncertainty, as well as the visual appearance of the output.",
+    "body":[
+      "I work with RAW image data, statistical noise models, and Python-based analysis to examine how noise affects image formation and restoration. Working from the underlying measurements allows me to investigate signal and noise behavior before display processing changes the image.",
+      "I use controlled comparisons to evaluate restoration results and distinguish improved visual appearance from preservation of the measured information. This ongoing work develops an analysis framework for interpreting low-signal images and assessing the reliability of recovered features."
+    ],
+    "focus":["RAW image analysis","Statistical noise modeling","Python scientific computing","Image-restoration evaluation"],
+    "papers":[]
+  },
+  {
+    "id":"tem-cl",
+    "title":"Electron microscopy and cathodoluminescence of photovoltaic contacts",
+    "label":"TEM and cathodoluminescence",
+    "status":"Manuscript in preparation",
+    "opening":"Microscopy shows where structural features occur, while cathodoluminescence probes the light emitted when a material is excited by electrons. Examining the two together can help relate local structure to optical response in photovoltaic contact stacks.",
+    "body":[
+      "I analyze electron microscopy images and cathodoluminescence measurements of TiOₓ/Al₂O₃/Si contacts. My work focuses on interpreting spectral features alongside the material structure and determining which observations remain consistent through the analysis workflow.",
+      "I test spectral reconstruction and interference corrections to distinguish repeatable material signals from processing artifacts. This work is ongoing, with a manuscript in preparation; the analysis is directed toward a more reliable interpretation of local optical response in these multilayer contacts."
+    ],
+    "focus":["Photovoltaic contact stacks","Electron microscopy","Cathodoluminescence","Spectral reconstruction","Interference corrections"],
+    "papers":[]
+  }
 ]
