@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import {save,shell,pageIntro,A,esc,socials,links,origin} from './templates.mjs';
 import './home.mjs';
+import './skills.mjs';
+import './hobbies.mjs';
 const read=file=>JSON.parse(fs.readFileSync('content/'+file+'.json','utf8'));
 const stories=read('stories');
 const pubLinks=p=>p.papers.length?`<div class="publication-links"><span class="small-label">Related publications</span>${p.papers.map(([doi,label])=>A('https://doi.org/'+doi,esc(label))).join('')}</div>`:'';
@@ -21,9 +23,9 @@ pubs.sort((a,b)=>Number(b.year)-Number(a.year));
 save('/publications/','Publications','Published research by Mahantesh Khetri and collaborators.',pageIntro('The references','Publications','Published research in laser processing, materials recovery, and characterization. Explore the methods and engineering contributions on the '+A('/projects/','Projects')+' page.')+`<div class="wrap spaced">${pubs.map(p=>`<article class="pub-row"><div class="pub-year">${p.year}<br><span class="subtle">${p.role}</span></div><div><h2>${A('https://doi.org/'+p.doi,esc(p.title))}</h2><p>${esc(p.authors)}</p><p><em>${esc(p.journal)}</em> · ${A('https://doi.org/'+p.doi,'Publisher / DOI')}</p></div></article>`).join('')}<div class="notebook"><span class="small-label">Published patent application · Co-inventor</span><h3>Use of Lasers to Selectively Remove Materials from Substrates</h3><p>Mool C. Gupta and Mahantesh Khetri · US20260008129A1</p>${A('https://patents.google.com/patent/US20260008129A1/en','Read the patent application')}</div></div>`);
 const legacy={ 'silver-recovery-silicon':'recycling','pv-backsheet-delamination':'recycling','machine-vision-laser-automation':'recycling','silver-recovery-cigs':'recycling','thin-film-materials':'crystals','transparent-conducting-oxides':'thin-films','multimodal-spectroscopy':'spectroscopy'};
 for(const [slug,id] of Object.entries(legacy)){const p=stories.find(s=>s.id===id);save('/projects/'+slug+'/',p.title,p.opening,pageIntro(p.label,p.title,p.opening)+`<div class="wrap"><div class="detail-copy"><p class="breadcrumbs">${A('/projects/#'+id,'Back to Research & Engineering Projects')}</p><span class="project-status">${esc(p.status)}</span>${paragraphs(p)}${pubLinks(p)}</div></div>`)}
-const routes=['/','/projects/','/documents/','/gallery/','/awards/','/community/','/publications/',...Object.keys(legacy).map(k=>'/projects/'+k+'/')];
+const routes=['/','/projects/','/skills/','/hobbies/','/documents/','/gallery/','/awards/','/community/','/publications/',...Object.keys(legacy).map(k=>'/projects/'+k+'/')];
 if(origin)fs.writeFileSync('dist/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+routes.map(r=>`<url><loc>${origin}${r}</loc></url>`).join('')+'</urlset>');
 else if(fs.existsSync('dist/sitemap.xml'))fs.unlinkSync('dist/sitemap.xml');
 fs.writeFileSync('dist/robots.txt',`User-agent: *\nAllow: /\n${origin?'Sitemap: '+origin+'/sitemap.xml\n':''}`);
 fs.writeFileSync('dist/404.html',shell('This page wandered off','Return to Mahantesh Khetri’s home page.','/404.html',pageIntro('A small detour','This page wandered off.','Let’s get you '+A('/','back home')+'.')));
-console.log('Built home, projects, documents, gallery, awards, community, publications and preserved project routes.');
+console.log('Built home, projects, skills, personal hobbies, documents, gallery, awards, community, publications and preserved project routes.');
