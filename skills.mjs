@@ -48,9 +48,21 @@ const skills=[
     'Class 4 laser safety and cleanroom practices',
     'Power, signal, optical, and motion-system troubleshooting',
     'Standard operating procedures, technical reports, and user training'
-  ],'/documents/','Resume and academic CV']
+  ],'/documents/','Resume and academic CV'],
+  ['Organization building & governance','As a founding member of Pehchaan Ek Safar, I helped turn a student initiative into a registered education NGO.',[
+    'Defining mission, aims, objectives, and long-term priorities',
+    'NGO registration, constitution, and organizational structure',
+    'Governance and continuity across successive student teams',
+    'Building a sustainable foundation for volunteer-led programs'
+  ],'/community/#leadership-roles','Founding-member experience'],
+  ['Team leadership & partnerships','As Secretary in 2018–2019, I helped coordinate people, resources, and external relationships during the NGO’s formative years.',[
+    'Team building, volunteer recruitment, and coordination',
+    'Planning priorities and organizing responsibilities',
+    'Partnership development and MoUs with multiple organizations',
+    'Fundraising, outreach, and external engagement'
+  ],'/community/#leadership-roles','Secretary and community leadership']
 ];
 
-save('/skills/','Skills','Hands-on skills in laser processing, optical instrumentation, materials characterization, machine vision, motion control, and embedded electronics.',
-pageIntro('Experience gained through research and independent projects','Technical skills','My work combines laser-material interactions, custom optical instruments, materials processing, and automation. I have gained these skills through research at the University of Virginia, IIT Delhi, and IIT Ropar, as well as independent electronics projects.').replace('page-intro wrap','page-intro wrap section-intro')+
+save('/skills/','Skills & leadership','Hands-on research and engineering skills, complemented by team leadership, nonprofit governance, partnerships, and organization building.',
+pageIntro('Experience gained through research, projects, and community leadership','Skills & leadership','My work combines laser-material interactions, optical instruments, materials processing, and automation. Alongside research at UVA, IIT Delhi, and IIT Ropar and independent electronics projects, co-founding Pehchaan Ek Safar developed my experience in team leadership and organization building.').replace('page-intro wrap','page-intro wrap section-intro')+
 `<div class="wrap"><div class="expertise-line" aria-label="Core expertise"><span>Laser processing</span><span>Optical instrumentation</span><span>Materials characterization</span><span>Machine vision</span><span>Process development</span></div><div class="skills-grid">${skills.map(([title,desc,items,url,label],i)=>`<section class="skill-card"><span class="small-label">${String(i+1).padStart(2,'0')}</span><h2>${title}</h2><p>${desc}</p><ul>${items.map(item=>`<li>${item}</li>`).join('')}</ul>${A(url,label+' ↗','text-link')}</section>`).join('')}</div><div class="notebook"><h2>See the work behind the skills.</h2><p>${A('/projects/','Explore my research projects')} or ${A('/documents/','download my CV and resume')} for the methods, results, and experience behind this overview.</p></div></div>`);
