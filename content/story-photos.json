@@ -1,0 +1,106 @@
+{
+  "crystal-vial": {
+    "src": "/assets/crystal-vial.webp",
+    "width": 893,
+    "height": 1800,
+    "alt": "Bulk crystals in a sample vial",
+    "caption": "Bulk single crystals I grew, retained in a labelled sample vial."
+  },
+  "crystal-surface": {
+    "src": "/assets/crystal-surface.webp",
+    "width": 1800,
+    "height": 1464,
+    "alt": "A bulk single crystal resting on graph paper",
+    "caption": "A closer view of a grown crystal on graph paper, showing its surface and physical scale."
+  },
+  "gsm-breadboard": {
+    "src": "/assets/gsm-breadboard.webp",
+    "width": 1800,
+    "height": 1350,
+    "alt": "Early GSM controller breadboards with microcontroller, cellular module, wiring and relay",
+    "caption": "Early circuit testing: bringing the microcontroller, GSM module and relay interface together on breadboards."
+  },
+  "gsm-workbench": {
+    "src": "/assets/gsm-workbench.webp",
+    "width": 1800,
+    "height": 1350,
+    "alt": "GSM project workbench with a multimeter, electronic components and breadboard circuits",
+    "caption": "The development workbench, with test circuits, components and a multimeter for checking connections and supply levels."
+  },
+  "pehchaan-campus-team": {
+    "src": "/assets/pehchaan-campus-team.webp",
+    "width": 1800,
+    "height": 1200,
+    "alt": "Pehchaan Ek Safar volunteers in front of the IIT Ropar emblem",
+    "caption": "The Pehchaan team at IIT Ropar. A shared commitment, sustained by many people."
+  },
+  "pehchaan-field-classroom": {
+    "src": "/assets/pehchaan-field-classroom.webp",
+    "width": 1040,
+    "height": 780,
+    "alt": "Children attending a Pehchaan class beneath a thatched shelter in a field",
+    "caption": "An early Paathshala classroom in the field, with chalkboards, a simple shelter and children gathered to learn."
+  },
+  "pehchaan-campus-visit": {
+    "src": "/assets/pehchaan-campus-visit.webp",
+    "width": 800,
+    "height": 600,
+    "alt": "Pehchaan children in school uniforms with volunteers on the IIT Ropar campus",
+    "caption": "Children from Pehchaan Ek Safar visiting the IIT Ropar campus with volunteers."
+  },
+  "pehchaan-paathshala-team": {
+    "src": "/assets/pehchaan-paathshala-team.webp",
+    "width": 1800,
+    "height": 1200,
+    "alt": "Pehchaan volunteers gathered beside the Paathshala banner",
+    "caption": "Volunteers coming together around Pehchaan’s Paathshala initiative."
+  },
+  "pehchaan-donation-drive": {
+    "src": "/assets/pehchaan-donation-drive.webp",
+    "width": 1800,
+    "height": 1350,
+    "alt": "Mahantesh beside a Pehchaan donation box and Diwali event poster on campus",
+    "caption": "Campus fundraising for Pehchaan, inviting the wider community to contribute."
+  },
+  "pehchaan-organizing-team": {
+    "src": "/assets/pehchaan-organizing-team.webp",
+    "width": 1040,
+    "height": 780,
+    "alt": "Pehchaan organizing team gathered in a classroom",
+    "caption": "The team behind the planning, coordination and everyday work of the initiative."
+  },
+  "pehchaan-outreach-stall": {
+    "src": "/assets/pehchaan-outreach-stall.webp",
+    "width": 1800,
+    "height": 1013,
+    "alt": "Pehchaan volunteers at an outreach stall with information leaflets and learning materials",
+    "caption": "An outreach and fundraising stall: sharing our work and building support beyond the classroom."
+  },
+  "pehchaan-stationery-distribution": {
+    "src": "/assets/pehchaan-stationery-distribution.webp",
+    "width": 1012,
+    "height": 1800,
+    "alt": "Mahantesh and an IIT Ropar community member distributing learning materials to children",
+    "caption": "Distributing stationery to children with support from the IIT Ropar community.",
+    "crop": [
+      0,
+      281,
+      1012,
+      1238
+    ]
+  },
+  "pehchaan-independence-day": {
+    "src": "/assets/pehchaan-independence-day.webp",
+    "width": 1040,
+    "height": 584,
+    "alt": "Children and Pehchaan volunteers with a banner and Indian flag",
+    "caption": "Children and volunteers together for an Independence Day gathering."
+  },
+  "pehchaan-learning-kits": {
+    "src": "/assets/pehchaan-learning-kits.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Children holding stationery kits at a Pehchaan event with the IIT Ropar community",
+    "caption": "Learning materials for the children, made possible through collective support at IIT Ropar."
+  }
+}
