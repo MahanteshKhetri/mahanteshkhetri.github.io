@@ -36,7 +36,6 @@ save('/hobbies/','Personal hobbies | GSM pump controller','Independently develop
     <div class="gsm-field-grid">
       ${photo('gsm-field-panel.jpg','An agricultural motor-starter panel with the modular GSM controller installed below',4000,3000,'Field integration: the controller connected to an existing agricultural motor-starter panel.')}
       <div class="gsm-field-notes"><h3>What I tested and resolved</h3><ul><li><strong>Real installations:</strong> approximately three to four prototypes, including systems with roughly 10 HP centrifugal pumps.</li><li><strong>Starter compatibility:</strong> phase checks, start-ready signals, and timing coordinated with existing motor-control hardware.</li><li><strong>Electrical disturbances:</strong> traced controller resets near contactors and voltage drops during GSM transmission.</li><li><strong>Improved stability:</strong> refined regulation, filtering, decoupling, local energy storage, and transient suppression.</li></ul></div>
-      ${photo('gsm-starter-integration.jpg','Prototype electronics connected to the control circuitry of an agricultural pump starter',4000,3000,'Testing alongside the contactors, sensing connections, and starter circuitry.','gsm-integration-photo')}
     </div>
   </section>
 
