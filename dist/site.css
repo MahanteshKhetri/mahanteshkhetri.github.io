@@ -155,5 +155,22 @@
 @media(max-width:520px){.story-photo-grid:not(.crystal-photo-grid){grid-template-columns:1fr}.story-photo-grid:not(.crystal-photo-grid) .photo-button{height:255px}.story-photo-grid:not(.crystal-photo-grid) .photo-window{width:min(100%,calc(233px * var(--frame-ratio)))}.crystal-photo-grid{gap:12px}.crystal-photo-grid .photo-button{padding:5px;height:180px}.crystal-photo-grid .photo-window{width:min(100%,calc(168px * var(--frame-ratio)))}.community-moments-compact img{height:175px}}
 
 /* Put the founding and secretary roles first in the Pehchaan introduction. */
+.publication-resources{display:flex;flex-wrap:wrap;gap:16px 30px;margin:0 0 30px}
+.publication-index{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:42px;padding:20px;background:#eeeae1;border:1px solid var(--line)}
+.publication-index a{display:flex;align-items:center;gap:12px;padding:8px 12px;text-decoration:none;font-size:15px}
+.publication-index span{font-size:13px;font-weight:600;background:var(--paper);border:1px solid var(--line);padding:1px 9px;border-radius:3px}
+.publication-index a:hover{background:var(--paper)}
+.publication-section{padding:0 0 42px;scroll-margin-top:35px}
+.publication-heading{display:flex;align-items:baseline;justify-content:space-between;gap:18px;margin-bottom:22px}
+.publication-heading h2{font-size:34px;line-height:1.2;margin:0}
+.publication-heading>span{font-size:14px;white-space:nowrap;color:var(--muted)}
+.publications-page .pub-row{grid-template-columns:90px minmax(0,1fr);gap:25px}
+.publications-page .pub-row h3{font:400 26px/1.35 var(--serif);margin:0 0 12px;letter-spacing:0}
+.publications-page .pub-row h3 a{text-decoration:none}
+.publications-page .pub-row h3 a:hover{text-decoration:underline}
+.publications-page .pub-source{margin-bottom:0;font-size:13px}
+.publications-page .pub-year .subtle{font-size:12px}
+.publications-page .pub-row .small-label{display:block;margin-bottom:12px}
+@media(max-width:760px){.publication-index{gap:4px;padding:12px;margin-bottom:30px}.publication-index a{padding:8px;font-size:14px}.publication-heading{align-items:flex-start;flex-direction:column;gap:6px}.publication-heading h2{font-size:29px}.publications-page .pub-row{grid-template-columns:1fr;gap:10px}.publications-page .pub-row h3{font-size:23px}.publications-page .pub-year br{display:none}.publications-page .pub-year .subtle{margin-left:12px}.publication-resources{gap:12px 24px;font-size:14px}.publication-section{padding-bottom:30px}}
 .community-intro .pehchaan-role{margin:0 0 24px;padding:12px 18px;border-left:4px solid var(--gold);background:#efe8db;color:#8a571b;font-size:18px;line-height:1.7}
 @media(max-width:760px){.community-intro .pehchaan-role{font-size:17px;margin-bottom:20px;padding:10px 14px}}

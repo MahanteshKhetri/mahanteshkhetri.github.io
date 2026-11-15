@@ -11,7 +11,9 @@
     "tags": [
       "Photovoltaics",
       "Laser Processing"
-    ]
+    ],
+    "type": "journal",
+    "citation": "304, 114404"
   },
   {
     "id": 2,
@@ -25,7 +27,9 @@
     "tags": [
       "Surface Engineering",
       "Laser Processing"
-    ]
+    ],
+    "type": "journal",
+    "citation": "11(19), 27970–27984"
   },
   {
     "id": 3,
@@ -41,7 +45,9 @@
       "Automation",
       "Nanoparticles",
       "Laser Processing"
-    ]
+    ],
+    "type": "journal",
+    "citation": "254, 123684"
   },
   {
     "id": 4,
@@ -55,7 +61,9 @@
     "tags": [
       "Nanoparticles",
       "Laser Processing"
-    ]
+    ],
+    "type": "journal",
+    "citation": "10(24), 26033–26040"
   },
   {
     "id": 5,
@@ -69,7 +77,9 @@
     "tags": [
       "Photovoltaics",
       "Laser Processing"
-    ]
+    ],
+    "type": "journal",
+    "citation": "282, 113381"
   },
   {
     "id": 6,
@@ -83,7 +93,9 @@
     "tags": [
       "Photovoltaics",
       "Laser Processing"
-    ]
+    ],
+    "type": "journal",
+    "citation": "270, 112381"
   },
   {
     "id": 7,
@@ -96,6 +108,63 @@
     "summary": "Developed Sb doped SnO2 transparent conducting oxide thin films by thermal evaporation of Sn Sb alloy layers followed by controlled post oxidation and characterized their structural, optical, and electrical properties.",
     "tags": [
       "Thin Films"
-    ]
+    ],
+    "type": "conference",
+    "citation": "2115, 030278"
+  },
+  {
+    "id": 8,
+    "type": "journal",
+    "title": "Electrochemical investigation of MoSeTe as an anode for sodium-ion batteries",
+    "authors": "Priya Mudgal, Himani Arora, Jayashree Pati, Manish K. Singh, Mahantesh Khetri, Rajendra S. Dhaka",
+    "role": "Co-author",
+    "journal": "Proceedings of the Indian National Science Academy",
+    "citation": "88(3), 430–438",
+    "year": "2022",
+    "doi": "10.1007/s43538-022-00101-5"
+  },
+  {
+    "id": 9,
+    "type": "conference",
+    "title": "Machine Learning-Assisted Automated Laser Recovery of Silver Electrode Recovery from Waste Silicon Solar Cells",
+    "authors": "Mahantesh Khetri, Mool C. Gupta",
+    "role": "First Author",
+    "journal": "2025 IEEE 53rd Photovoltaic Specialists Conference (PVSC)",
+    "citation": "p. 1300",
+    "year": "2025",
+    "doi": "10.1109/PVSC59419.2025.11133134"
+  },
+  {
+    "id": 10,
+    "type": "conference",
+    "title": "Laser recycling of photovoltaic and electronic waste",
+    "authors": "Mool C. Gupta, Pawan Kumar Kanaujia, Mahantesh Khetri, Abhishek Trivedi",
+    "role": "Co-author",
+    "journal": "SPIE Energy Harvesting and Storage: Materials, Devices, and Applications XV",
+    "citation": "PC1345005",
+    "year": "2025",
+    "doi": "10.1117/12.3054074"
+  },
+  {
+    "id": 11,
+    "type": "conference",
+    "title": "Laser Recycling of Silver from Silicon and CIGS Solar Cells Through Bulk Laser Debonding and Nanoparticles by Laser Ablation",
+    "authors": "Mahantesh Khetri, Mool C. Gupta",
+    "role": "First Author",
+    "journal": "2024 IEEE 52nd Photovoltaic Specialist Conference (PVSC)",
+    "citation": "p. 0984",
+    "year": "2024",
+    "doi": "10.1109/PVSC57443.2024.10748926"
+  },
+  {
+    "id": 12,
+    "type": "conference",
+    "title": "Laser Recycling of Silver from Waste Silicon Solar Cells",
+    "authors": "Mahantesh Khetri, Pawan K. Kanaujia, Mool C. Gupta",
+    "role": "First Author",
+    "journal": "2023 IEEE 50th Photovoltaic Specialists Conference (PVSC)",
+    "citation": "p. 1",
+    "year": "2023",
+    "doi": "10.1109/PVSC48320.2023.10360069"
   }
 ]
